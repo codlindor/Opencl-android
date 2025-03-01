@@ -137,6 +137,11 @@ now you should install OpenCL driver for (Adreno && Arm-Mali)
 
 
 ```
+ln -s /system/vendor/lib/egl/libGLES_mali.so $PREFIX/lib/libGLES_mali.so
+ln -s /system/lib/egl/libGLES_mali.so 
+$PREFIX/lib/libGES_mali.so
+
+
 Adreno
 
 ln -s /system/vendor/lib64/libOpenCL.so $PREFIX/lib/libOpenCL.so
