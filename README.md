@@ -137,18 +137,44 @@ now you should install OpenCL driver for (Adreno && Arm-Mali)
 
 
 ```
-ln -s /system/vendor/lib/egl/libGLES_mali.so $PREFIX/lib/libGLES_mali.so
-ln -s /system/lib/egl/libGLES_mali.so 
+ln -s /system/vendor/lib/egl/libGLES_mali.so $PREFIX/lib
+
+ln -s /system/vendor/lib64/egl/libGLES_mali.so $PREFIX/lib
+
+
+ln -s /system/lib64/libGLES_mali.so 
 $PREFIX/lib/libGES_mali.so
 
+ln -s /system/lib/libGLES_mali.so 
+$PREFIX/lib/libGES_mali.so
 
+ln -s /system/vendor/lib/libGLES_mali.so $PREFIX/lib
+
+ln -s /system/vendor/lib64/libGLES_mali.so $PREFIX/lib
 Adreno
 
-ln -s /system/vendor/lib64/libOpenCL.so $PREFIX/lib/libOpenCL.so
+ln -s /system/lib/libGLESv1_CM.so.so $PREFIX/lib
+
+ln -s /system/lib/libGLESv3.so.so $PREFIX/lib
+
+ln -s /system/lib/libGLESv2.so.so $PREFIX/lib
+
+ln -s /system/lib64/libGLESv1_CM.so.so $PREFIX/lib/
+
+ln -s /system/lib64/libGLESv2.so.so $PREFIX/lib/
+
+ln -s /system/lib64/libGLESv3.so.so $PREFIX/lib/
+
+ln -s /system/vendor/lib64/libOpenCL.so $PREFIX/lib/
+
+ln -s /system/vendor/lib/libOpenCL.so $PREFIX/lib/
 
 ARM-Mali
 
-ln -s /system/vendor/lib64/egl/libmali.so $PREFIX/lib/libOpenCL.so
+ln -s /system/vendor/lib/arm.graphics-V1-ndk_platform.so $PREFIX/lib/
+
+ln -s /system/vendor/lib64/arm.graphics-V1-ndk_platform.so $PREFIX/lib/
+
 
 ```
 
