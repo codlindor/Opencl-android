@@ -142,26 +142,26 @@ ln -s /system/vendor/lib/egl/libGLES_mali.so $PREFIX/lib
 ln -s /system/vendor/lib64/egl/libGLES_mali.so $PREFIX/lib64
 
 ln -s /system/lib64/libGLES_mali.so 
-$PREFIX/lib64
+$PREFIX/system/lib64
 
 ln -s /system/lib/libGLES_mali.so 
-$PREFIX/lib
+$PREFIX/system/lib
 
 ln -s /system/vendor/lib/libGLES_mali.so $PREFIX/lib
 
 ln -s /system/vendor/lib64/libGLES_mali.so $PREFIX/lib64
 
-ln -s /system/lib/libGLESv1_CM.so.so $PREFIX/lib
+ln -s /system/lib/libGLESv1_CM.so $PREFIX/system/lib
 
-ln -s /system/lib/libGLESv3.so.so $PREFIX/lib
+ln -s /system/lib/libGLESv3.so $PREFIX/system/lib
 
-ln -s /system/lib/libGLESv2.so.so $PREFIX/lib
+ln -s /system/lib/libGLESv2.so $PREFIX/system/lib
 
-ln -s /system/lib64/libGLESv1_CM.so.so $PREFIX/lib64
+ln -s /system/lib64/libGLESv1_CM.so $PREFIX/system/lib64
 
-ln -s /system/lib64/libGLESv2.so.so $PREFIX/lib64
+ln -s /system/lib64/libGLESv2.so $PREFIX/system/lib64
 
-ln -s /system/lib64/libGLESv3.so.so $PREFIX/lib64
+ln -s /system/lib64/libGLESv3.so $PREFIX/system/lib64
 
 ln -s /system/vendor/lib64/libOpenCL.so $PREFIX/lib64
 
